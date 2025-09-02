@@ -1,4 +1,4 @@
 .idea
 .venv/
-.env
+Echo_bot/.env
 __pycache__/
