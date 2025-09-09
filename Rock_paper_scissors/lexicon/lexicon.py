@@ -24,3 +24,8 @@ LEXICON_RU: dict[str, str] = {
     "user_won": "Вы победили!\nПоздравляю!🎉",
     "nobody_won": "Ничья!",
 }
+
+LEXICON_COMMANDS_RU: dict[str, str] = {
+    '/start': 'Запуск бота',
+    '/help': 'Правила игры'
+}

@@ -1,4 +1,6 @@
 .idea
 .venv/
 Echo_bot/.env
+Rock_paper_scissors/.env
+Book_bot/.env
 __pycache__/

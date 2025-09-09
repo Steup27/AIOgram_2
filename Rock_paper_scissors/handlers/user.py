@@ -41,7 +41,7 @@ async def process_help_command(message: Message):
                          message_effect_id=message_effect_id,
                          reply_markup=keyboard_3)
 
-@router.message(F.text.in_(['statistics', 'СТАТИСТИКА']))
+@router.message(F.text == 'СТАТИСТИКА')
 async def process_help_command(message: Message):
     await message.answer(text=get_statistics(message) + '\n\n' + LEXICON_RU['question_1'],
                          reply_markup=keyboard_1)
